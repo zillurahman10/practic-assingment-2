@@ -1,0 +1,33 @@
+head{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F3F1FF;
+}
+.background{
+    background-color: #FFFFFF;
+}
+
+.player{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    
+}
+.player-size{
+    width: 80px;
+}
+.player-flex{
+    display: flex;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+.player-name{
+    margin-left: 20px;
+}
+players{
+    margin: 500px;
+}
